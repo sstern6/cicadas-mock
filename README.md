@@ -14,7 +14,7 @@ and the last:
 
 3) A generic query method... it returns the number of bikes that match the arguments passed, e.g.
 
-```
+```ruby
 dealership = Dealership.new
 dealership.query("white", 2009, "BMW")  # returns a number of matching motorcycles
 ```
